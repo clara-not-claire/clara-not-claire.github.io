@@ -1,0 +1,186 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+
+body {
+  background-color: F8FDFF;
+  /*font-family: monospace; changes margin spacing of site*/
+}
+
+p{
+  font-family: 'Karla', sans-serif;
+  line-height: 1.5em;
+  text-align: justify;
+  display:inline-block;
+  margin: 20px 0px;
+  width: 50rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  font-family: 'Spectral', serif;
+  font-weight: bolder;
+  display: inline-block;
+  margin-top: 3rem;
+}
+
+h2{
+  font-family: 'Spectral', serif;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+#main {
+  /*width: 50rem;*/
+  margin: 0 auto;
+}
+
+
+#ProfilePicImg {
+  border-radius: 150px;
+  margin-top: 8rem;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+#introHeader{
+  text-align: center;
+  height: 100vh;
+}
+
+/*NAVIGATION*/
+
+*{transition:all 0.3s ease-in-out;}
+
+#headerLine {
+  margin: 0;
+  padding: 0;
+}
+
+.navBar-container{
+  overflow: auto;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #92E7FC;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
+  color: #fff;
+}
+
+.sticky {
+ background: #92E7FC;
+ position: fixed;
+ width: 100%;
+ margin-top:-10px;
+ transition: background 0.3s ease-in-out;
+ color: white;
+}
+
+.logoNav img{
+  float: left;
+  padding: 2.5px, 10px;
+  margin-left: 10rem;
+  display: inline;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+ul a {
+  display: inline-block;
+  float:left;
+  margin: 15px 10px 0px;
+  padding: 2.5px 10px;
+  z-index: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.colored {
+  color:#92E7FC;
+}
+
+.white {
+  color: #fff;
+}
+
+ul li{
+  display: inline-block;
+  float: left;
+  font-size:20px;
+  font-family: 'Spectral', serif;
+  margin-top: 20px;
+}
+
+nav ul {
+  margin-top: 0;
+}
+
+#contactNav{
+  margin-right: 10rem;
+}
+
+nav a:hover{
+  color: black;
+
+}
+
+/*SECTIONS*/
+.about{
+  text-align: center;
+  padding-top: 100px;
+  background-color: #e9f1f5;
+  height: 100vh;
+}
+
+.whatIDo{
+  text-align: center;
+  height: 100vh;
+  padding-top: 100px;
+
+}
+
+.contactSection{
+  text-align: center;
+  padding-top: 100px;
+  height: 100vh;
+  background-color: #e9f1f5;
+}
+
+.cover-img {
+  width: 100%;
+
+}
+
+.IconLinkedin {
+
+}
+
+.IconTwitter {
+
+}
+
+.IconInstagram {
+
+}
+
+.resize {
+  width: 25px;
+  height: 25px;
+  margin: 10%;
+}
+
+.Line {
+  width: 50rem;
+  color: #8c9396;
+  width: 6rem;
+  border: 1px solid;
+}
