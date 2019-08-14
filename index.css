@@ -14,6 +14,10 @@ p{
   width: 50rem;
 }
 
+#shortBio {
+  text-align: center;
+}
+
 a{
   text-decoration: none;
 }
@@ -58,9 +62,11 @@ h2{
 
 *{transition:all 0.3s ease-in-out;}
 
+/*
 :root {
   font-size: 62.5%;
 }
+*/
 
 #headerLine {
   margin: 0;
@@ -71,17 +77,19 @@ h2{
   overflow: auto;
 }
 
+/*
 .navbar-fixed-top.scrolled {
   background-color: #92E7FC;
   transition: background-color 200ms linear;
 }
+*/
 
 .navbar-fixed-top.scrolled .nav-link {
   color: #fff;
 }
 
 .sticky {
- background: #92E7FC;
+ background-color: : #92E7FC;
  position: fixed;
  width: 100%;
  margin-top:-10px;
@@ -119,7 +127,7 @@ ul a {
 ul li{
   display: inline-block;
   float: left;
-  font-size: 2rem;
+  font-size: 20px; /*FIND WAY TO CHANGE TO 2rem WITHOUT KILLING THE NAV*/
   font-family: 'Spectral', serif;
   margin-top: 20px;
 }
