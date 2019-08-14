@@ -58,6 +58,10 @@ h2{
 
 *{transition:all 0.3s ease-in-out;}
 
+:root {
+  font-size: 62.5%;
+}
+
 #headerLine {
   margin: 0;
   padding: 0;
@@ -115,7 +119,7 @@ ul a {
 ul li{
   display: inline-block;
   float: left;
-  font-size:20px;
+  font-size: 2rem;
   font-family: 'Spectral', serif;
   margin-top: 20px;
 }
@@ -131,6 +135,11 @@ nav ul {
 nav a:hover{
   color: black;
 
+}
+
+.links {
+  text-decoration: underline;
+  color: inherit;
 }
 
 /*SECTIONS*/
