@@ -1,17 +1,28 @@
 @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
 
+/*NOTES:
+  Primary bg color (white): #fff
+  Sub color (turquoise): #92E7FC
+  Shaded color (grey, about): #e9f1f5
+  body text color: ???
+  line color: #8c9396
+*/
+
 body {
-  background-color: F8FDFF;
   /*font-family: monospace; changes margin spacing of site*/
 }
 
-p{
+.aboutBio ul, p{
   font-family: 'Karla', sans-serif;
   line-height: 1.5em;
   text-align: justify;
   display:inline-block;
   margin: 1rem 0rem;
   width: 50rem;
+}
+
+.aboutBio ul {
+  list-style-type: circle;
 }
 
 #shortBio {
@@ -124,7 +135,7 @@ ul a {
   color: #fff;
 }
 
-ul li{
+#mainMenu li{
   display: inline-block;
   float: left;
   font-size: 20px; /*FIND WAY TO CHANGE TO 2rem WITHOUT KILLING THE NAV*/
@@ -153,23 +164,23 @@ nav a:hover{
 /*SECTIONS*/
 .about{
   text-align: center;
-  padding-top: 4rem;
+  padding-top: 5rem;
   background-color: #e9f1f5;
   height: 100vh;
 }
 
+/*
 .whatIDo{
   text-align: center;
   height: 100vh;
   padding-top: 4rem;
 
 }
-
+*/
 .contactSection{
   text-align: center;
-  padding-top: 4rem;
+  padding-top: 5rem;
   height: 100vh;
-  background-color: #e9f1f5;
 }
 
 .cover-img {

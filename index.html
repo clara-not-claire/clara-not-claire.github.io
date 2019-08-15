@@ -37,7 +37,7 @@
                   <ul id="mainMenu" >
                     <li ><a href="#" class="nav-link colored" id="homeNav">home</a></li>
                     <li ><a href="#aboutMe" class="nav-link colored" id="aboutNav">about</a></li>
-                    <li ><a href="#whatIDo" class="nav-link colored" id="whatIDoNav">what i do</a></li>
+                    <!-- <li ><a href="#whatIDo" class="nav-link colored" id="whatIDoNav">what i do</a></li> -->
                     <li ><a href="portfolio/portfolio.html" class="nav-link colored" id="portfolioNav">portfolio</a></li>
                     <li ><a href="#socialLinks" class="nav-link colored" id="contactNav">contact</a></li>
                   </ul>
@@ -53,30 +53,28 @@
     <img id = "ProfilePicImg" src="headshot.jpg" alt="Clara's headshot.">
     <br>
     <h1>Hi, I'm Clara!</h1>
-    <br>
-    <p id="shortBio">Student. Coder. Leader. Occaisional writer. <a class="links" href="portfolio/portfolio.html">Explore my work here.</a></p>
     <hr class="Line"/>
+    <p id="shortBio">Student. Coder. Leader. Occaisional writer. <a class="links" href="portfolio/portfolio.html">Explore my work here.</a></p>
   </div>
 
 <!--ABOUT-->
     <section class="about" id="aboutMe">
-        <div>
+        <div class="aboutBio">
           <h2>about</h2>
           <hr class="Line"/>
-          <p>I am a high school student with a passion for learning about the world around me.
-            Through school clubs, I combine my academic interests with my eagerness to help my community and change it for the better.
-            With the rising emphasis on computer science and the gender imbalance in tech sectors, I co-founded a Girls Who Code club on campus.
-            GWC has allowed me to build a space where girls bolster each other, work collaboratively to solve problems in all aspects of life, and provide a strong support network.</p>
+          <p>I am a California high school student in pursuit of combining my interest in STEM (Science, Technology, Engineering, and Mathematics) with my passion to improve my community.
+              Beyond my classes, you can find me reading New York Times articles, baking, and coding this website. :) [CHANGE WHEN YOU ACTUALLY HAVE SIDE PROJECTS LOL]</p>
           <br>
-          <p>I love baking, cooking, jotting down notes in book margins - anything that involves creating something with my hands.</p>
-          <br>
-          <p>Currently, I am taking college courses at my local community college to fuel my curiosity.
-            While I am still exploring, I hope to study engineering in the future.
-            Just the thought of creating something that could make someone else's life better excites me.</p>
+          <ul>
+            <li class="bioList">In the fall of 2017, I co-founded a Girls Who Code club on our campus.
+              Since then, I lead club meetings, introducing its members to various topics and figures in CS, plan a variety of enriching field trips, and organize women-in-tech guest speakers.</li>
+            <li class="bioList">As the Director of Partnerships of Musicality for Yemen, I act as the liason between organizations such as PRERNAforRefugees to plan(CHANGE) collaborations.</li>
+            <li class="bioList">PRERNA STEM</li>
+            <li class="bioList">I am a research assistant at the Academia Sinica Institute of Astronomy and Astrophysics (ASIAA) researching Wolf-Rayet stars.</li>
         </div>
     </section>
 
-<!--WHAT I DO-->
+<!--WHAT I DO
   <section class="whatIDo" id="whatIDo">
       <div>
         <h2>what i do</h2>
@@ -86,7 +84,7 @@
 
       </div>
   </section>
-
+-->
 
 <!--Contact-->
     <section class="contactSection">
@@ -138,8 +136,8 @@
       contact.classList.remove("colored");
       contact.classList.add("white");
 
-      whatIDo.classList.remove("colored");
-      whatIDo.classList.add("white");
+    //  whatIDo.classList.remove("colored");
+    //  whatIDo.classList.add("white");
 
       portfolio.classList.remove("colored");
       portfolio.classList.add("white");
@@ -155,8 +153,8 @@
       contact.classList.add("colored");
       contact.classList.remove("white");
 
-      whatIDo.classList.add("colored");
-      whatIDo.classList.remove("white");
+    //  whatIDo.classList.add("colored");
+    //  whatIDo.classList.remove("white");
 
       portfolio.classList.add("colored");
       portfolio.classList.remove("white");
