@@ -140,7 +140,7 @@ h3 {
   margin-top: 25px;
 }
 
-ul a.nav-link {
+.navbar-fixed-top ul a {
   display: inline-block;
   float:left;
   margin: 15px 10px 0px;
@@ -220,6 +220,10 @@ nav a:hover{
   text-align: center;
   padding-top: 5rem;
   height: 100vh;
+}
+
+ul.research {
+  text-align: left;
 }
 /*
 .workSub {
