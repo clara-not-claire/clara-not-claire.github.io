@@ -219,3 +219,12 @@ nav a:hover{
   width: 6rem;
   border: 1px solid;
 }
+
+/*WORK section*/
+.workSection {
+  display: flex;
+}
+
+.workSub {
+  flex-wrap: wrap;
+}
