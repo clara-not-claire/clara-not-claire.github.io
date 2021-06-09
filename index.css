@@ -229,12 +229,16 @@ nav a:hover{
 
 div.research {
   display: flex;
-  flex-direction: row;
 }
 
 div.researchText {
-  display: flex;
   justify-content: center;
+}
+
+.workImgs {
+  border-radius: 40px;
+  border-style: solid;
+  border-color: #92E7FC;
 }
 /*
 .workSub {
