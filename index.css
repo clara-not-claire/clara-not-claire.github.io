@@ -220,10 +220,12 @@ nav a:hover{
   text-align: center;
   padding-top: 5rem;
   height: 100vh;
-  display: flex;
-
 }
 
 .workSub {
+  display: flex;
+}
+
+.research {
   flex-wrap: wrap;
 }
