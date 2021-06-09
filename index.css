@@ -227,6 +227,11 @@ nav a:hover{
   width: 50rem;
 }
 
+div.research {
+  display: flex;
+  flex-direction: row;
+}
+
 div.researchText {
   display: flex;
   justify-content: center;
