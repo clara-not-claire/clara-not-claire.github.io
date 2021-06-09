@@ -12,6 +12,18 @@ body {
   /*font-family: monospace; changes margin spacing of site*/
 }
 
+#shortBio {
+  text-align: center;
+  font-size: 20px;
+}
+
+.about{
+  text-align: center;
+  padding-top: 5rem;
+  background-color: #e9f1f5;
+  height: 100vh;
+}
+
 .aboutBio ul, p{
   font-family: 'Karla', sans-serif;
   line-height: 1.5em;
@@ -23,11 +35,6 @@ body {
 
 .aboutBio ul {
   list-style-type: circle;
-}
-
-#shortBio {
-  text-align: center;
-  font-size: 20px;
 }
 
 a{
@@ -162,12 +169,6 @@ nav a:hover{
 }
 
 /*SECTIONS*/
-.about{
-  text-align: center;
-  padding-top: 5rem;
-  background-color: #e9f1f5;
-  height: 100vh;
-}
 
 /*
 .whatIDo{
@@ -177,6 +178,13 @@ nav a:hover{
 
 }
 */
+
+.workSection {
+  text-align: center;
+  padding-top: 5rem;
+  height: 100vh;
+
+
 .contactSection{
   text-align: center;
   padding-top: 5rem;
