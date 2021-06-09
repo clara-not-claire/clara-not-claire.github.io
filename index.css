@@ -68,6 +68,13 @@ h2{
   display: inline-block;
 }
 
+h3 {
+  font-family: 'Spectral', serif;
+  font-weight: normal;
+  font-style: italic;
+  display: inline-block;
+}
+
 #main {
   /*width: 50rem;*/
   margin: 0 auto;
