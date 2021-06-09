@@ -20,12 +20,6 @@ body {
   height: 100vh;
 }
 
-.workSection {
-  text-align: center;
-  padding-top: 5rem;
-  height: 100vh;
-}
-
 .contactSection{
   text-align: center;
   padding-top: 5rem;
@@ -146,7 +140,7 @@ h3 {
   margin-top: 25px;
 }
 
-ul a {
+ul a.nav-link {
   display: inline-block;
   float:left;
   margin: 15px 10px 0px;
@@ -221,8 +215,13 @@ nav a:hover{
 }
 
 /*WORK section*/
+
 .workSection {
+  text-align: center;
+  padding-top: 5rem;
+  height: 100vh;
   display: flex;
+
 }
 
 .workSub {
