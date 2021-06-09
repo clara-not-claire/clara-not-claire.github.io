@@ -227,7 +227,7 @@ nav a:hover{
   width: 50rem;
 }
 
-.researchText {
+div.researchText {
   display: flex;
   justify-content: center;
 }
