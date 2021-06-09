@@ -226,6 +226,11 @@ nav a:hover{
   text-align: left;
   width: 50rem;
 }
+
+.researchText {
+  display: flex;
+  justify-content: center;
+}
 /*
 .workSub {
   display: flex;
