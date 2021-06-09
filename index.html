@@ -91,7 +91,7 @@
             <ul class="researh">
               <li>Cataloged nebulae characteristics using SAOImage, performed velocity calculations using Excel, and collected data using Aladin for 154 WR stars.</li>
               <!--remember to add attributes to the links-->
-              <li><a href="https://iopscience.iop.org/article/10.3847/1538-4365/abcc00">First author paper</a> published in the <a href="https://iopscience.iop.org/journal/0067-0049"Astrophysical Journal Supplement</a> (Jan 2021).</li>
+              <li><a href="https://iopscience.iop.org/article/10.3847/1538-4365/abcc00">First author paper</a> published in the <a href="https://iopscience.iop.org/journal/0067-0049">Astrophysical Journal Supplement</a> (Jan 2021).</li>
               <li><a href="https://drive.google.com/file/d/1IhMcmPnXpUyNDEFyc_FE6zItdmEOT_LZ/view?usp=sharing">Poster presenter</a> at the Astronomical Society of the Republic of China's (ASROC) <a href="http://www.asroc.org.tw/asroc2020/abstract.php?a=de2c19703d5e8adb1780db9106a64206">2020 Annual Meeting</a>.</li>
             </ul>
           </div>
@@ -135,6 +135,65 @@
 
 
   <script type="text/javascript">
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function() {scroll()};
+
+  // Get the header
+  var nav = document.getElementById("myHeader");
+
+  // Get the nav bar links
+  var about = document.getElementById("aboutNav");
+  var home = document.getElementById("homeNav");
+  var contact = document.getElementById("contactNav");
+  var work = document.getElementById("workNav");
+  var portfolio = document.getElementById("portfolioNav");
+
+  // Get the offset position of the navbar
+  var sticky = nav.offsetTop;
+
+  // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function scroll() {
+    if (window.pageYOffset > sticky) {
+      nav.classList.add("sticky");
+      about.classList.remove("colored");
+      about.classList.add("white");
+
+      home.classList.remove("colored");
+      home.classList.add("white");
+
+      work.classList.remove("colored");
+      work.classList.add("white");
+
+      contact.classList.remove("colored");
+      contact.classList.add("white");
+
+    //  whatIDo.classList.remove("colored");
+    //  whatIDo.classList.add("white");
+
+      portfolio.classList.remove("colored");
+      portfolio.classList.add("white");
+
+    } else {
+      nav.classList.remove("sticky");
+      about.classList.add("colored");
+      about.classList.remove("white");
+
+      home.classList.add("colored");
+      home.classList.remove("white");
+
+      work.classList.add("colored");
+      work.classList.remove("white");
+
+      contact.classList.add("colored");
+      contact.classList.remove("white");
+
+    //  whatIDo.classList.add("colored");
+    //  whatIDo.classList.remove("white");
+
+      portfolio.classList.add("colored");
+      portfolio.classList.remove("white");
+    }
+  }
 
 
   </script>
