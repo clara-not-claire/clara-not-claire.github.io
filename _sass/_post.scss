@@ -7,7 +7,7 @@
   letter-spacing: -1px;
   line-height: 1.2;
 
-  font-family: $base-font-family;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif,"Segoe UI", Roboto, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
   @include media-query($on-mobile) {
     font-size: 34px;
@@ -19,7 +19,7 @@
   letter-spacing: -1px;
   line-height: 1;
   color: #777;
-  font-family: $base-font-family;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif,"Segoe UI", Roboto, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: oblique;
   position: relative;
   top: -0.3em;
